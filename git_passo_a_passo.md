@@ -1,5 +1,7 @@
 # Git Passo a Passo
-##PASSO 1
+
+## PASSO 1
+
 #### Baixar e instalar o GIT
 * [Link para baixar o Git - local](https://git-scm.com/downloads)
 
@@ -7,13 +9,16 @@ Testar se tudo deu certo: digite ```
 git version```
 em seu console CMD
 
-##PASSO 2
+## PASSO 2
+
 #### Criar uma conta no Github
+
 * [Link para o Github](https://github.com/)
 
 Crie sua conta utilizando seu email educar;
 
-##PASSO 3
+## PASSO 3
+
 #### Configurar seu usuario e sua senha no Git local
 ```
 * git config --global user.name <nome de usuário>; 
@@ -22,17 +27,19 @@ Crie sua conta utilizando seu email educar;
 ```
 
 
-##PASSO 4
+## PASSO 4
+
 #### Criar uma chave ssh para a sua conta
 ```
 ssh-keygen -t rsa -b 4096 -C "mauri-jklein@educar.rs.gov.br
 ```
 * Atribuir esta chave SSH no Github. 
 
-##PASSO 5
+## PASSO 5
+
 Criar um repositório local e conectar no repositório remoto;
 
-##Principais comandos Git que vamos utilizar:
+## Principais comandos Git que vamos utilizar:
 ```
 git init
 git status
@@ -41,6 +48,7 @@ git commit -m "mensagem do commit"
 git remote add origin "link do repositório remoto"
 git clone "link do repositório remoto"
 git push origin main
+git pull
 ```
 
 
